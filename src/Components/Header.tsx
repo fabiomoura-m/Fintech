@@ -1,9 +1,11 @@
-import { useData } from '../Context/DataContext';
+import DateRange from './DateRange';
 
 function Header() {
-    const { data } = useData();
-  
-    return <div>Header</div>;
+    return (
+        <div>
+            <DateRange />
+        </div>
+    );
 }
 
 export default Header;
