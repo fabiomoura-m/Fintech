@@ -44,7 +44,7 @@ function getDateAnyDayAgo(n: number) {
 }
 
 export const DataContextProvider = ({ children }: React.PropsWithChildren) => {
-    const [inicio, setInicio] = useState(getDateAnyDayAgo(30));
+    const [inicio, setInicio] = useState(getDateAnyDayAgo(15));
     const [final, setFinal] = useState(getDateAnyDayAgo(0));
 
     const { data, loading, error } = useFetch<IVenda[]>(
