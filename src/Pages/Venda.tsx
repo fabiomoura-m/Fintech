@@ -27,7 +27,6 @@ function Venda() {
             </div>
             <div className="box mb">Status: {data.status}</div>
             <div className="box mb">Pagamento: {data.pagamento}</div>
-            <div className="box mb">Data: {data.data}</div>
         </div>
     );
 }
