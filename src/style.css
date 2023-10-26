@@ -78,13 +78,13 @@ ul {
 
 /* sidenav */
 
-.sidenav li{
+.sidenav li {
     display: flex;
     align-items: center;
     gap: var(--gap-s);
 }
 
-.sidenav li span{
+.sidenav li span {
     width: 2rem;
     height: 2rem;
     background: var(--color-4);
@@ -94,21 +94,20 @@ ul {
     border-radius: var(--gap);
 }
 
-.sidenav li a{
+.sidenav li a {
     flex: 1;
     font-size: 1.125rem;
     text-decoration: none;
     color: var(--color-1);
     padding: var(--gap-s) 0;
-
 }
 
-.sidenav li:hover span{
+.sidenav li:hover span {
     background: var(--color-3);
 }
 
 /* daterange */
-.daterange{
+.daterange {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
@@ -141,7 +140,13 @@ ul {
     justify-self: end;
 }
 
-.venda a{
+.venda a {
     text-decoration: none;
     color: inherit;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }
